@@ -1,0 +1,32 @@
+Here are the answers to the lab01 questions.
+
+Part C
+1. How many classes did you create?
+answer: One (Student)
+2. How many objects did you create?
+answer: 2 (Ahmad and Sara)
+
+
+Part D (Try this)
+1. Does it work?
+answer: No
+2. Why?
+answer: because the balance property is declared private and only accessible in the same class.
+
+
+Part F
+1. Which class is the parent class?
+answer: Person
+2. Which class is the child class?
+answer: Student
+3. Which keyword creates the inheritance relationship?
+answer: extends
+4. The introduce() method was written inside which class?
+answer: Person
+5. Can the $student1 object call introduce()?
+answer: Yes
+6. Why can $student1 use introduce() even though it is not written inside the Student class?
+answer: For children inherit methods and properties from the parent class. Therefore, $student1 can call introduce().
+
+
+Thank you for reading.
