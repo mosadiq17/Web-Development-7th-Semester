@@ -1,0 +1,14 @@
+Task 1
+Property           Works outside class?             Reason
+$name              yes                              it is defined as public so can be accessed everywhere
+$studentId         no                               it is defined as private and only accessible inside the class
+$department        no                               it actually works inside child classes but no outside the class
+
+Task 3
+1. public means it is accessible everywhere in the php code.
+2. private means it is accessible only inside the class.
+3. protected means it is accessible only inside the class and its children.
+4. extends is the keyword to inheritance in php programming language.
+5. parent class is the class where children inherit from its properties and methods like Employee and Person
+6. child is inheriting from the parent class like Manager and Student
+7. protected gives access to children but limits accessing it outside of class and anywhere else.
