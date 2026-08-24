@@ -109,5 +109,10 @@
 		}
 	}
 
+	$manager1 = new Manager("Ali", "Kabul Tech", 30000);
+	$manager1->showEmployee();
+	$manager1->getSalary();
+	$manager1->manageTeam();
+
 
 ?>
