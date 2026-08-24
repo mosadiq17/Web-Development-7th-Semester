@@ -81,10 +81,10 @@
 		protected $name;
 		private $salary;
 
-		function __construct($company, $name, $salary)
+		function __construct($name, $company, $salary)
 		{
-			$this->company = $company;
 			$this->name = $name;
+			$this->company = $company;
 			$this->salary = $salary;
 		}
 
